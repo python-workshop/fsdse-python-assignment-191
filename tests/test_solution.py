@@ -4,7 +4,7 @@ from unittest import TestCase
 class TestSolution(TestCase):
     def test_insert(self):
         try:
-            from run import Solution
+            from build import Solution
         except ImportError:
             self.assertFalse("No class found")
 
